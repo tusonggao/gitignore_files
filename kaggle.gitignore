@@ -1,4 +1,4 @@
-# skip data submission directory 
+# skip data, submission directory, and intermidiate output files 
 running_output*
 atad/
 data/

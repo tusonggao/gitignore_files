@@ -3,6 +3,7 @@ running_output*
 atad/
 data/
 submission/
+mission/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

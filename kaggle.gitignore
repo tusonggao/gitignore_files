@@ -4,6 +4,9 @@ atad/
 data/
 submission/
 mission/
+*.zip
+nohup.out
+*.tsg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

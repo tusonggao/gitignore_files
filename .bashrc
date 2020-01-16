@@ -1,3 +1,5 @@
+#https://www.cnblogs.com/apporon/p/10187338.html
+#https://blog.csdn.net/u013894429/article/details/79908554
 alias ll='ls -lht' #按修改时间逆序列出文件
 alias la='ls -lhta' #按修改时间逆序列出所有文件
 alias size='f(){ du -sh $1* | sort -hr; }; f'

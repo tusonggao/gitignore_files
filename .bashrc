@@ -4,6 +4,7 @@
 alias showgpu='watch -n 1 nvidia-smi'
 alias gitu='git add .; git commit -m "update files"; git push'
 alias gita='git add .; git commit -m "add files"; git push'
+alias gits='git status'
 alias ll='ls -lht' #按修改时间逆序列出文件
 alias la='ls -lhta' #按修改时间逆序列出所有文件
 alias size='f(){ du -sh $1* | sort -hr; }; f'

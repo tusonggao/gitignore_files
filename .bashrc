@@ -2,6 +2,7 @@
 #https://blog.csdn.net/u013894429/article/details/79908554
 alias ll='ls -lht' #按修改时间逆序列出文件
 alias la='ls -lhta' #按修改时间逆序列出所有文件
+alias showgpu='watch -n 1 nvidia-smi'
 alias size='f(){ du -sh $1* | sort -hr; }; f'
 alias sek='f(){ find / -name $1; }; f' # 在根目录查找文件
 alias sekc='f(){ find ./ -name $1; }; f'

@@ -4,6 +4,8 @@ set tabstop=4
 set shiftwidth=4
 " 按退格键时可以一次删掉4个空格
 set softtabstop=4
+" 按F9键，将模式切换到paste模式
+set pastetoggle=<F9>
 
 set t_Co=256
 set term=xterm-color
@@ -21,4 +23,3 @@ autocmd BufNewFile *.py 0r ~/.vim/vim_template/vim_python_header
 if has("autocmd")
     autocmd BufReadPost *  if line("'\"") > 0 && line ("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
-

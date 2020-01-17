@@ -1,4 +1,10 @@
-set ts=4
+" 设置Tab键的宽度[等同的空格个数]
+set tabstop=4
+" 每一次缩进对应的空格数
+set shiftwidth=4
+" 按退格键时可以一次删掉4个空格
+set softtabstop=4
+
 set t_Co=256
 set term=xterm-color
 set expandtab

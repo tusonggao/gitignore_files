@@ -6,8 +6,9 @@ alias gitu='git add .; git commit -m "update files"; git push'
 alias gita='git add .; git commit -m "add files"; git push'
 alias gits='git status'
 alias tsg='cd ~/tsg'
-alias cck='cd ~/tsg/git_me_repos/data_cck'
 alias me='cd ~/tsg/git_me_repos/'
+alias others='cd ~/tsg/git_others_repos/'
+alias cck='cd ~/tsg/git_me_repos/data_cck'
 
 ##################################################################################################
 
